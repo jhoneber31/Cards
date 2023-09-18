@@ -1,0 +1,380 @@
+@font-face {
+    font-family: "SourceCodePro";
+    src: url(fuentes/SourceCodePro-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'SourceCodePro'; 
+}
+body{
+    background: rgb(39, 42, 43);
+}
+.cards__containerOneToTen{
+    width: 3728px;
+    height: 471px; 
+    display: flex;
+    margin: 16px 0 0 16px;
+}
+
+.card{
+    background: white;
+    border-radius: 12px;
+    margin-right: 80px;
+}
+
+.card__title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.63px;
+}
+.card__subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.6px;
+    color: #666666;
+}
+.card__description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.63px;
+    color: #666666;
+}
+.card__container{
+    margin: 24px;
+}
+
+/*Card 1*/
+.card--One{
+    width: 268px;
+    height: 213px;     
+}
+.card__container--One{
+    width: 220px;
+    height: 165px;     
+    text-align: center;
+}
+.card__container--One h3{
+    margin: 16px 0 16px 0;
+}
+
+/*Card 2*/
+.card--Two{
+    width: 268px;
+    height: 182px;
+}
+
+.card__container--Two{
+    width: 220px;
+    height: 134px; 
+}
+
+.card__subContainerTwo{
+    display: flex;
+    margin-bottom: 24px;  
+}
+.card__boxTwo{
+    margin-left: 16px;
+    justify-content: center;
+}
+.card__boxTwo .card__title{
+    margin-bottom: 4px;
+}
+
+/*Card 3*/
+.card--Three{
+    width: 268px;
+    height: 192px;  
+}
+.card__container--Three{
+    width: 220px;
+    height: 144px; 
+    position: relative;
+    margin-bottom: 24px;
+}
+.card__subContainerThree{
+    margin-bottom: 24px;
+}
+.card__subContainerThree h3{
+    margin-bottom: 12px;
+}
+.card__button{
+    width: 80px;
+    height: 31px;
+    border-radius: 12px;
+    border: 1px;
+    background:#3C3C43 ;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*Card 4*/
+.card--Four{
+    width: 298px;
+    height: 193px;  
+}
+
+.card__container--Four{
+    width: 250px;
+    height: 145px; 
+}
+
+.card__icons{ 
+    display:flex;
+    justify-content: center;
+}
+.card__rectangle{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: #DEDEDE;
+}
+.card__rectangle--Two{
+    margin: 0 32px;
+}
+.card__subContainerFour{
+    margin-top: 24px;
+    text-align: center;
+}
+
+/*Card 5*/
+.card--Five{
+    width: 304px;
+    height: 326px;  
+}
+.card__container--Five{
+    width: 256px;
+    height: 278px; 
+}
+.card__subContainerFour h3{
+    margin-bottom: 4px;
+}
+.card__figure{
+    background: #DEDEDE;
+    border-radius: 12px;
+}
+.card__figure--square{
+    width: 256px;
+    height: 173px;  
+}
+.card__subContainerFive{
+    margin-top: 24px;
+}
+.card__subContainerFive h3{
+    margin-bottom: 4px;
+}
+
+/*Card 6*/
+.card--Six{
+    width: 304px;
+    height: 223px;
+}
+.card__container--Six{
+    width: 256px;
+    height: 175px;
+    position: relative;
+}
+.card__subContainerSix{
+    margin-bottom: 24px;  
+}
+.card__boxSix{
+    margin-bottom: 21px;
+}
+.card__boxSix h4{
+    margin-bottom: 4px;
+}
+.card__button--Transparent{
+    background: white;
+    border: 1px solid #3C3C43;
+    color: #3C3C43;  
+}
+.card__buttons .card__button--Transparent{
+    margin-right: 100px;
+}
+
+/*card 7*/
+.card--Seven{
+    width: 304px;
+    height: 212px;
+}
+.card__container--Seven{
+    width: 256px;
+    height: 164px;
+    position: relative;
+}
+.card__subContainerSeven{
+    width: 256px;
+    height: 117px;
+    position: relative;
+    margin-bottom: 16px;
+}
+.card__boxSeven{
+    width: 256px;
+    height: 85px;   
+}
+.card__subContainerSeven .card__img{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    left: 224px;
+}
+.card__subContainerSeven .card__title{
+    margin-bottom: 8px;
+}
+
+.card__tags{
+    position:absolute;
+    left: 0;
+    bottom: 0;
+}
+.card__tag{
+    width: 36px;
+    height: 15px;
+    border-radius: 100px;
+    border: 1px solid #3C3C43;
+    padding: 8px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+span{
+    color: #3C3C43;
+    font-family: 'SourceCodePro';
+    font-size: 12px;
+    font-weight: 400;
+}
+/*card 8*/
+.card--Eight{
+    width: 304px;
+    height: 329px;
+}
+.card__figure--Eight{
+    width: 304px;
+    height: 198px;
+    position: relative;
+
+}
+.card__container--Eight{
+    width: 256px;
+    height: 83px;
+}
+
+.card__container--Eight .card__title{
+    margin-bottom: 6px;
+}
+.card__label{
+    width: 36px;
+    height: 16px;
+    border-radius: 100px;
+    border: 1px;
+    background: #3C3C43;
+    padding: 8px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+}
+.card__span--white{
+    color: #FFFFFF;
+}
+.card__label{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    bottom: 149px;
+    left: 234px;
+}
+/*card 9*/
+.card--Nine{
+    width: 342px;
+    height: 471px;
+}
+.card__header{
+    width: 294px;
+    height: 43px;
+    margin: 16px 24px;
+}
+
+.card__group--Nine{
+    width: 141px;
+    height: 43px;
+    display: flex;
+}
+.card__img--little32{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+.card__img--little16{
+    width: 16px;
+    height: 16px;
+    margin-left: 137px;
+}
+.card__figure--Nine{
+    width: 342px;
+    height: 198px;
+    border-radius: 0;
+}
+.card__container--Nine{
+    width: 294px;
+    height: 150px;
+    position: relative;
+}
+.card__subContainerNine{
+    margin-bottom: 24px;  
+}
+.card__boxNine{
+    margin-bottom: 21px;
+}
+.card__boxNine h4{
+    margin-bottom: 4px;
+}
+.card__button--Transparent{
+    background: white;
+    border: 1px solid #3C3C43;
+    color: #3C3C43;  
+}
+.card__buttons .card__button--Transparent{
+    margin-right: 100px;
+}
+
+.card--Ten{
+    width: 348px;
+    height: 243px;
+}
+.card__container--ten{
+    width: 300px;
+    height: 195px;
+}
+.card__subContainerTen1{
+    width: 293px;
+    height: 45px;
+    text-align: center;
+    justify-content: center;
+}
+.card__subContainerTen2{
+    width: 300px;
+    height: 126px;
+    margin-top: 24px;
+}
+.card__boxTen{
+    width: 300px;
+    height: 54px;
+    display: flex;
+}
+.card__boxTen--Up{
+    margin-bottom: 18px;
+}
+.card__sphere{
+    margin-right: 12px;
+    position: relative;
+}
+.card__sphere .card__title{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+
