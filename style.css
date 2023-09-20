@@ -377,4 +377,349 @@ span{
     left: 10px;
 }
 
+.cards__container11to20{
+    width: 3845px;
+    height: 504px; 
+    display: flex;
+    margin: 16px 0 0 16px;
+}
+
+/*card 11*/
+.card011{
+    width: 342px;
+    height: 504px; 
+    background: white;
+    border-radius: 12px;
+    margin-right: 80px;
+}
+.card_square{
+    width: 342px;
+    height: 222px; 
+    background: #DEDEDE;
+    border-radius: 12px 12px 0 0;
+}
+.card011__container{
+    margin: 24px;
+    width: 294px;
+    height: 234px;
+    position: relative;
+}
+.card011__header{
+    width: 128px;
+    height: 45px;
+}
+.card011__header .card__title{
+    margin-bottom: 4px;
+}
+.card011__center .card__description{
+    margin: 16px 0;
+}
+.card__rectn{
+    width: 291px;
+    height: 1px;
+    background: #C4C4C4;
+}
+.card011__TagAndSubt{
+    width: 264px;
+    height: 57px;
+    margin: 16px 0;
+    position: relative;
+}
+.card__tags--011{
+    width: 264px;
+    height: 31px;
+    display: flex;
+}
+.card__tags--011 .card__tag{
+    width: 36px;
+    height: 15px;
+    border-radius: 100px;
+    border: 1px solid #3C3C43;
+    margin-right: 8px;
+}
+.card011__footer .card__button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*card 12*/
+.card012{
+    width: 342px;
+    height: 377px;
+    background: white;
+    border-radius: 12px;
+    margin-right: 80px;
+}
+.card012__header{
+    width: 294px;
+    height: 65px;
+    margin: 24px;
+}
+.card012__header .card__title{
+    margin-bottom: 6px;
+}
+.card012__center .card_square{
+    width: 342px;
+    height: 198px;
+    border-radius: 0;
+}
+.card012__footer{
+    width: 294px;
+    height: 18px;
+    margin: 24px;
+}
+.card012__tags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconAndText{
+    display:flex;
+    margin-right: 24px;
+    align-items: center;
+}
+.iconAndText .card__img--little16{
+    margin: 0 6px 0 0;
+}
+
+.card013{
+    width: 304px;
+    height: 403px;
+    background: white;
+    border-radius: 12px;
+    margin-right: 80px;
+}
+.card013__container{
+    width: 256px;
+    height: 358px;
+    margin: 24px;
+}
+.card013__header{
+    width: 256px;
+    height: 81px;
+}
+.card013__header .card__title{
+    margin-bottom:4px;
+}
+.card__picture{
+    margin-top: 24px;
+    display: flex;
+}
+.card__picture .card_square{
+    width: 119px;
+    height: 113px;
+    border-radius: 12px;   
+}
+.card__picture .card_square:first-child{
+    margin-right: 18px;
+}
+/*card 14*/
+.card014{
+    width: 268px;
+    height: 244px;
+    background: white;
+    border-radius: 12px;
+    margin-right: 80px;
+}
+.card014__container{
+    width: 220px;
+    height: 196px;
+    margin: 24px;
+    position: relative;
+}
+.card014__center{
+    width: 220px;
+    height: 85px;
+    margin: 24px 0;
+}
+.card014__center .card__title{
+    margin-bottom: 8px;
+}
+.card__tags--014{
+    display: flex; 
+}
+.card__tags--014 .card__tag{
+    margin-right: 8px;
+}
+
+/*card 15*/
+.card015{
+    width: 276px;
+    height: 394px;
+    background: white;
+    border-radius: 12px;
+    margin-right: 80px;
+}
+.card015__header{
+    width: 228px;
+    height: 46px;
+    margin: 24px;
+}
+.card015 .card_square{
+    width: 276px;
+    height: 300px;
+    border-radius: 0 0 12px 12px;
+}
+
+/*card 16*/
+.card016{
+    width: 220px;
+    height: 176px;
+    padding: 24px;
+    background: white;
+    border-radius: 12px;
+    margin-right: 80px;
+}
+.card016__header{
+    width: 211px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+.card016__picture{
+    margin-right: 16px;
+}
+.card016__center{
+    margin: 24px 0;
+}
+.card016__footer{
+    display: flex;
+}
+.card016__footer .iconAndText{
+    margin-right: 8px;
+}
+/*card 17*/
+.card017{
+    width: 381px;
+    height: 344px;
+    background: white;
+    border-radius: 12px;
+    margin-right: 80px;
+}
+.card017__header .card_square{
+    width: 381px;
+    height: 280px;
+    border-radius: 12px 12px 0 0;
+}
+.card017__footer{
+    width: 333px;
+    height: 32px;
+    padding: 16px 24px;
+    display: flex;
+}
+.card017__imgAndTitle{
+    display: flex;
+    align-items: center;
+    margin-right: 64px;
+}
+.card017__imgAndTitle .card__img--little32{
+    margin-right: 12px;
+}
+.card017__iconAndText{
+    display: flex;
+    margin-right: 16px;
+    align-items: center;
+}
+.card017__iconAndText .card__img--little16{
+    margin: 0 4px 0 0;
+}
+/*card 18*/
+.card018{
+    width: 258px;
+    height: 239px;
+    padding: 24px;
+    background: white;
+    border-radius: 12px;
+    margin-right: 80px;
+}
+.card018__header{
+    margin-bottom: 32px;
+}
+.card__title2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.11px;
+}
+.card018__titleAndDesc:first-child{
+    margin-bottom: 24px;
+}
+.card018__titleAndDesc .card__title2{
+    margin-bottom: 6px;
+}
+
+/*card 19*/
+.card019{
+    width: 262px;
+    height: 207px;
+    padding: 24px;
+    background: white;
+    border-radius: 12px;
+    margin-right: 80px;
+}
+.card019__header{
+    width: 262px;
+    height: 43px;
+    margin-bottom: 24px;
+    position: relative;
+}
+.card019__titleAndSub{
+    margin-right: 118px;
+}
+.card019__header .card__img--little16{
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.card019__img{
+    text-align: center;
+}
+/*card 20*/
+.card020{
+    width: 280px;
+    height: 331px;
+    padding: 24px;
+    background: white;
+    border-radius: 12px;
+    margin-right: 80px;
+}
+.card020__header .card_square{
+    width: 280px;
+    height: 188px;
+    border-radius: 12px;
+}
+.card020__footer{
+    width: 280px;
+    height: 127px;
+    margin-top: 16px;
+}
+.card020__titleAndSub{
+    display: flex;
+    position: relative;
+}
+.card020__titleAndSub .card__title2{
+    margin-left: 24px;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+}
+.card020__footer .card__description{
+    margin: 16px 0;
+}
+.card020__tags{
+    display: flex;
+}
+.card020__iconAndText{
+    width: 200px;
+    height: 18px;
+    display: flex;
+}
+.card020__iconAndText .card__img--little16{
+    margin: 0;
+}
+.card020__iconAndText .card__description{
+    margin: 0 0 0 6px;
+}
 
